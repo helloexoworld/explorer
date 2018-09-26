@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "gradle",
+    "goal": "-Pprod bootRepackage -x test"
+  },
+  "deploy": {
+	"jarName": "./target/explorer-0.0.1-SNAPSHOT.war"
+  }
+}

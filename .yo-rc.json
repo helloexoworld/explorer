@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.helloexoworld.explorer",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "monolith",
+    "baseName": "explorer",
+    "packageName": "com.helloexoworld.explorer",
+    "packageFolder": "com/helloexoworld/explorer",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTliYWVlYjJjYWM0MjE3YzRiOGZmY2U2OTRkMTU5M2Q3ZGMyOGE4MTYxNmJlZjA5M2FiNWM1ODY4MzEwNmFlOGI1NDgzN2M5ODA3NDZmYzA2MzllNGE4ODgxYzY5NzdhODM1M2M5MjNlZmIwNWRmY2U0MTE2NTQwM2Y2M2Q2NTc=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  },
+  "generator-jhipster-clevercloud": {
+    "promptValues": {
+      "user": "user_31fbcacc-d43b-4260-a75d-c6ca3e007438",
+      "region": "eu"
+    }
+  }
+}

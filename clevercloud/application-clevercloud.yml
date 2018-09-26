@@ -1,0 +1,7 @@
+spring:
+    data:
+        mongodb:
+            uri: mongodb://${MONGODB_ADDON_HOST}:${MONGODB_ADDON_PORT}?authMode=scram-sha1
+            database: ${MONGODB_ADDON_DB}
+            username: ${MONGODB_ADDON_USER}
+            password: ${MONGODB_ADDON_PASSWORD}
